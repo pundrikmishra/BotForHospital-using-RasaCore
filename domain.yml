@@ -1,0 +1,122 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - inform
+  - search_provider
+  - thanks
+  - out_of_scope
+
+
+entities:
+  - facility_type
+  - location
+  - facility_id
+
+
+#slots:
+#  location:
+#    type: text
+##    auto_fill: False
+#  facility_type:
+#    type: text
+##    auto_fill: False
+#  address:
+#    type: unfeaturized
+
+slots:
+  facility_type:
+    type: unfeaturized
+  facility_address:
+    type: unfeaturized
+  facility_id:
+    type: unfeaturized
+  location:
+    type: unfeaturized
+
+
+forms:
+  - facility_form
+
+actions:
+  - utter_noworries
+  - utter_greet
+  - utter_goodbye
+  - utter_ask_location
+  - utter_ask_facility_type
+  - find_facility_types
+  - find_healthcare_address
+  - utter_address
+#  - utter_greet
+#  - utter_cheer_up
+#  - utter_did_that_help
+#  - utter_happy
+#  - utter_goodbye
+#  - utter_iamabot
+#  - utter_how_can_i_help
+#  - utter_ask_location
+#  - action_facility_search
+
+
+responses:
+  utter_greet:
+    - text: "Hi. What are you looking for?"
+    - text: "Hey there! Please choose one of the healthcare facility options:"
+    - text: "Hello! What can I help you find today?"
+
+  utter_goodbye:
+    - text: "Talk to you later!"
+    - text: "Have a good day."
+    - text: "Until next time!"
+
+  utter_noworries:
+    - text: "My pleasure."
+    - text: "You are welcome!"
+
+  utter_ask_facility_type:
+    - text: "Choose one of the following to search for: hospital, nursing home, or home health agency."
+
+  utter_ask_location:
+    - text: "Please provide your city name."
+    - text: "What is your current city?"
+    - text: "Please provide your city name or zip code."
+    - text: "Please enter your zip code or city name to find local providers."
+
+  utter_address:
+    - text: "The address is {facility_address}."
+
+#responses:
+#  utter_greet:
+#  - text: "Hey! How are you?"
+#
+#  utter_cheer_up:
+#  - text: "Here is something to cheer you up:"
+#    image: "https://i.imgur.com/nGF1K8f.jpg"
+#
+#  utter_did_that_help:
+#  - text: "Did that help you?"
+#
+#  utter_happy:
+#  - text: "Great, carry on!"
+#
+#  utter_goodbye:
+#  - text: "Bye"
+#
+#  utter_iamabot:
+#  - text: "I am a bot, powered by Rasa."
+#
+#  utter_how_can_i_help:
+#  - text: "Hello. I am a Medicare locator. I can help you find hospital, clinic, Doctors. How can help you?"
+#  - text: "Hi. My name is Medicare locator. How can I help you today?"
+#
+#  utter_ask_location:
+#  - text: "Can you provide your location please?"
+#  - text: "To find the nearest {facility_type} I need your address."
+#
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

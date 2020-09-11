@@ -1,0 +1,313 @@
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- good night
+- gn
+- gm
+- ga
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- good morning
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+
+
+## intent:goodbye
+- bye
+- bye bye
+- goodbye
+- see you around
+- see you later
+- Bye!
+- Goodbye
+- See you later
+- Bye bot
+- Goodbye friend
+- bye for now
+- catch you later
+- gotta go
+- See you
+- goodnight
+- have a nice day
+- i'm off
+- see you later alligator
+- we'll speak soon
+
+## intent:inform
+- [Akola] (location)
+- [Amravati] (location)
+- [Aurangabad] (location)
+- [Bhandara] (location)
+- [Bid]	(location)
+- [Buldana] (location)
+- [Chandrapur] (location)
+- [Dhule] (location)
+- [Gadchiroli] (location)
+- [Gondiya]	(location)
+- [Hingoli] (location)
+- [Jalgaon] (location)
+- [Jalna] (location)
+- [Kolhapur] (location)
+- [Latur] (location)
+- [Mumbai] (location)
+- [Mumbai Suburban] (location)
+- [Nagpur] (location)
+- [Nanded] (location)
+- [Nandurbar] (location)
+- [Nashik] (location)
+- [Osmanabad] (location)
+- [Parbhani] (location)
+- [Pune] (location)
+- [Raigarh] (location)
+- [Ratnagiri] (location)
+- [Sangli] (location)
+- [Satara] (location)
+- [Sindhudurg] (location)
+- [Solapur] (location)
+- [Thane] (location)
+- [Wardha] (location)
+- [Washim] (location)
+- [Yavatmal] (location)
+- [home health agency] (facility_type)
+- [hospital] (facility_type)
+- [nursing home] (facility_type)
+- a [home health agency] (facility_type:9wzi-peqs)
+- a [hospital] (facility_type)
+- a [nursing home] (facility_type)
+- [Amarillo] (location)
+- [New York] (location)m
+- [Las Vegas] (location)
+- [Katy] (location)
+- [Waco] (location)
+
+## intent:search_provider
+- [hospital] (facility_type) 
+- I need a [hospital] (facility_type)
+- find me a nearby [hospital] (facility_type)
+- show me [home health agencies] (facility_type:9wzi-peqs)
+- find me a nearby [hospital] (facility_type) in [Mumbai] (location)
+- I need a [home health agency] (facility_type:9wzi-peqs)
+- [hospital] (facility_type) nearby me
+- [hospital] (facility_type) near me
+- near me [hospital] (facility_type:xubh-q36u)
+- show me a [hospital] (facility_type:xubh-q36u) near me
+- show me [hospitals] (facility_type:xubh-q36u)
+- find me a nearby [hospital] (facility_type:xubh-q36u) my zip code is [400092] (location)
+- find me a nearby [home health agency] (facility_type)
+- show me [home health agency] (facility_type)
+- [home health agency] (facility_type)
+- find me a nearby [home health agency] (facility_type) my zip code is [400092] (location)
+- find me a nearby [nursing home] (facility_type:b27b-2uc7)
+- show me [nursing home] (facility_type:b27b-2uc7)
+- [nursing home] (facility_type:b27b-2uc7)
+- find me a nearby [nursing home] (facility_type) my zip code is [400092] (location)
+- i need a [hospital] (facility_type) my zip code is [400091] (location)
+- my zip code is [400092] (location) and i need a [nursing home] (facility_type)
+- my zip code is [400090] (location) and i need a [hospital] (facility_type)
+- my zip code is [400093] (location) and i need a [home health agency] (facility_type)
+- i need a [nursing home] (facility_type) at [400092] (location)
+- i need a [hospital] (facility_type) at [400092] (location)
+- i need a [home health agency] (facility_type) at [400092] (location)
+- i am in [Amravati] (location) and i need a [nursing home] (facility_type)
+- i am in [Nagpur] (location) and i need a [hospital] (facility_type)
+- i am in [Latur] (location) and i need a [home health agency] (facility_type)
+- i need a [nursing home] (facility_type) in [Ahmednagar] (location)
+- i need a [hospital] (facility_type) in [Akola] (location)
+- i need a [home health agency] (facility_type) in [Aurangabad] (location)
+- show me [nursing home] (facility_type) in [Beed] (location)
+- show me [hospital] (facility_type) in [Bhandara] (location)
+- show me home health agency in [Buldhana] (location)
+- find me a [home health agency] (facility_type) in [Chandrapur] (location)
+- hi i am in [Dhule] (location) i need a [nursing home] (facility_type)
+- hi i am in [Gadchiroli] (location) i need a [hospital] (facility_type)
+- hi i am in [Gondia] (location) i need a [home health agency] (facility_type)
+- hi i am in [Hingoli] (location) i need a [nursing home] (facility_type)
+- hi i am in [Jalgaon] (location) i need a [hospital] (facility_type:xubh-q36u)
+- hi i am in [Jalna] (location) i need a [home health agency] (facility_type)
+- hi i am in [Kolhapur] (location) i need a [nursing home] (facility_type)
+- hi i am in [Latur] (location) i need a [hospital] (facility_type)
+- hi i am in [Nanded] (location) i need a [home health agency] (facility_type)
+- hello i am in [Nandurbar] (location) i need a [nursing home] (facility_type)
+- hello i am in [Nashik] (location) i need a [hospital] (facility_type)
+- hello i am in [Osmanabad] (location) i need a [home health agency] (facility_type)
+- hello i am in [Parbhani] (location) i need a [nursing home] (facility_type)
+- hello i am in [Pune] (location) i need a [hospital] (facility_type)
+- hello i am in [Raigarh] (location) i need a [home health agency] (facility_type)
+- hello i am in [Ratnagiri] (location) i need a [nursing home] (facility_type)
+- hello i am in [Sangli] (location) i need a [hospital] (facility_type)
+- hello i am in [Satara] (location) i need a [home health agency] (facility_type)
+- Good morning i am in [Sindhudurg] (location) i need a [nursing home] (facility_type)
+- Good morning i am in [Solapur] (location) i need a [hospital] (facility_type)
+- Good morning i am in [Wardha] (location) i need a [home health agency] (facility_type)
+- Good morning i am in [Washim] (location) i need a [nursing home] (facility_type)
+- Good morning i am in [Yavatmal] (location) i need a [hospital] (facility_type)
+- Good morning i am in [Thane] (location) i need a [home health agencies] (facility_type)
+- Good morning i am in [Mumbai] (location) Suburban i need a [nursing home] (facility_type)
+- Good morning i am in [Mumbai] (location) i need a [hospital] (facility_type)
+- Good morning i am in [Nashik] (location) i need a [home health agency] (facility_type)
+- Hello again i need a [nursing home] (facility_type) in [Thane] (location)
+- Hello again i need a [hospital] (facility_type) in [Pune] (location)
+- Hello again i need a [home health agency] (facility_type) in [Ratnagiri] (location)
+- Good morning i need a [nursing home] (facility_type) in [Mumbai] (location)
+- Good morning i need a [hospital] (facility_type) in [Dhule] (location)
+- Good morning i need a [home health agency] (facility_type) in [Jalgaon] (location)
+- Can you tell me a [nursing home] (facility_type) in [Nashik] (location) City ?
+- my zip code is [30277] (location) and i need a [nursing home] (facility_type:b27b-2uc7)
+- my zip code is [86602] (location) and i need a [hospital] (facility_type:xubh-q36u)
+- my zip code is [47516] (location) and i need a [home health agency] (facility_type:9wzi-peqs)
+- i need a [nursing home] (facility_type:b27b-2uc7) at [77474] (location)
+- i need a [hospital] (facility_type:xubh-q36u) at [77474] (location)
+- i need a [home health agency] (facility_type:9wzi-peqs) at [77474] (location)
+- i am in [Amarillo] (location) and i need a [nursing home] (facility_type:b27b-2uc7)
+- i am in [New York] (location) and i need a [hospital] (facility_type:xubh-q36u)
+- i am in [Las Vegas] (location) and i need a [home health agency] (facility_type:9wzi-peqs)
+- i need a [nursing home] (facility_type:b27b-2uc7) in [Katy] (location)
+- i need a [hospital] (facility_type:xubh-q36u) in [Waco] (location)
+
+- [doctor] (facility_type)
+- I need a [doctor] (facility_type)
+- find me a nearby [doctor] (facility_type) in [Mumbai] (location)
+- [doctor] (facility_type) nearby me
+- [doctor] (facility_type) near me
+- show me a [doctor] (facility_type) near me
+- find [doctor] (facility_type) near me
+- [clinic] (facility_type)
+- find me a nearby [clinic] (facility_type)
+- [clinic] (facility_type) nearby me
+- [clinic] (facility_type) near me
+- show me a [clinic] (facility_type) near me
+- find [clinic] (facility_type) near me
+- find me a nearby [clinic] (facility_type) in [Mumbai] (location)
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+- yes sure
+- absolutely
+- for sure
+- yes yes yes
+- definitely
+- yeah
+- si
+- ok
+- okay
+
+## intent:deny
+- no
+- never
+- no way
+- not really
+- not today
+- no thanks
+- no thank you
+- uh no
+- nope
+- do you have something else
+- no this does not work for me
+
+
+## intent:mood_great
+- perfect
+- very good
+- good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+
+## intent:out_of_scope
+- please help with my ice cream it's dripping
+- no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+- i want a non dripping ice cream
+- someone call the police i think the bot died
+- show me a picture of a chicken
+- neither
+- I want french cuisine
+- i am hungry
+- restaurant
+- can i be shown a gluten free restaurant
+- i don't care!!!!
+- i do not care how are you
+- again?
+- oh wait i gave you my work email address can i change it?
+- hang on let me find it
+- stop it, i do not care!!!
+- how come?
+- I changed my mind
+- what?
+- did i break you
+- that link doesn't work!
+- you already have that
+- this is a really frustrating experience
+- no stop
+- give me food
+- i want food
+- Can I ask you questions first?
+- is it a wasteland full of broken robot parts?
+- can we keep chatting?
+- talk to me
+- who is your favourite robot?
+- can you help me to build a bot
+
+## intent:thanks
+- Thanks
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+
+## regex:location
+- [0-9]{5}
+
+## synonym:xubh-q36u
+- hospital
+- hospitals
+
+## synonym:9wzi-peqs
+- home health agency
+- home health agencies
+
+## synonym:b27b-2uc7
+- nursing home
+- nursing homes
